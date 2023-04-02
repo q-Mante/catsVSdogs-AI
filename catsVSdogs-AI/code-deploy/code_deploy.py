@@ -20,6 +20,7 @@ top.title('Cats_vs_Dogs_Classification')
 top.configure(background = 'black')
 label = Label(top, background = '#CDCDCD', font = ('arial', 15, 'bold'))
 sign_image = Label(top)
+
 def prediction_image(file_path):
     global label_packed
     open_img = Image.open(file_path)
@@ -32,6 +33,7 @@ def prediction_image(file_path):
     sign = classes[np.argmax(prediction)]
     print(sign)
     label.configure(foreground = '#011638', text = sign) 
+
 def show_prediction_button(file_path):
     pred_b = Button(top, text = "Predict Image", command = lambda: prediction_image(file_path), padx = 10, pady = 5)
     pred_b.configure(background='white', foreground='blue', font=('arial',10,'bold'))
