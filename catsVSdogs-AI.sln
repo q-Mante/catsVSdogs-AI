@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "code-train", "catsVSdogs-AI\code-train\code-train.pyproj", "{0CBCE085-C537-40F7-83F8-C75A71A63C92}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "code-deploy", "catsVSdogs-AI\code-deploy\code-deploy.pyproj", "{913669E7-DC32-4E05-B934-4185438EC0F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CBCE085-C537-40F7-83F8-C75A71A63C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBCE085-C537-40F7-83F8-C75A71A63C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{913669E7-DC32-4E05-B934-4185438EC0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{913669E7-DC32-4E05-B934-4185438EC0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDE4F498-59EA-4F45-AEC9-DE783702F6C0}
+	EndGlobalSection
+EndGlobal
